@@ -1,0 +1,1008 @@
+TsmcFanControl
+v7
+r0
+t279547063.710089
+cCheck dependencies
+cProcessInfoPlistFile /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Info.plist Info.plist
+cCpResource build/Debug/smcFanControl.app/Contents/Resources/smc_loginitem.scpt smc_loginitem.scpt
+cCpResource build/Debug/smcFanControl.app/Contents/Resources/smc_loginitem_remove.scpt smc_loginitem_remove.scpt
+cCopyStringsFile /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCopyStringsFile /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/Spanish.lproj/InfoPlist.strings Spanish.lproj/InfoPlist.strings
+cCpResource build/Debug/smcFanControl.app/Contents/Resources/smc smc
+cCopyPlistFile /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/Machines.plist Machines.plist
+cCpResource build/Debug/smcFanControl.app/Contents/Resources/paypal.gif paypal.gif
+cCopyStringsFile /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/English.lproj/Localizable.strings English.lproj/Localizable.strings
+cCopyStringsFile /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/German.lproj/Localizable.strings German.lproj/Localizable.strings
+cCopyStringsFile /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/Spanish.lproj/Localizable.strings Spanish.lproj/Localizable.strings
+cCpResource build/Debug/smcFanControl.app/Contents/Resources/smcfancontrol_v2.icns smcfancontrol_v2.icns
+cStripNIB /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/English.lproj/MainMenu.nib
+cStripNIB /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/German.lproj/MainMenu.nib
+cStripNIB /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Spanish.lproj/MainMenu.nib
+cCpResource build/Debug/smcFanControl.app/Contents/Resources/English.lproj/F.A.Q.rtf English.lproj/F.A.Q.rtf
+cCpResource build/Debug/smcFanControl.app/Contents/Resources/German.lproj/F.A.Q.rtf German.lproj/F.A.Q.rtf
+cCpResource build/Debug/smcFanControl.app/Contents/Resources/Spanish.lproj/F.A.Q.rtf Spanish.lproj/F.A.Q.rtf
+cCpResource build/Debug/smcFanControl.app/Contents/Resources/smc.png smc.png
+cCpResource build/Debug/smcFanControl.app/Contents/Resources/smcover.png smcover.png
+cCompileC build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/main.o /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/smc.o /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/FanControl.o /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/FanControl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/StatusItemWindow.o /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/StatusItemWindow.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/smcWrapper.o /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcWrapper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/Power.o /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Power.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/MachineDefaults.o /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/MachineDefaults.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/MacOS/smcFanControl normal i386
+cPBXCp build/Debug/smcFanControl.app/Contents/Frameworks/Sparkle.framework Sparkle.framework
+cTouch /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app
+
+N/Developer/SDKs/MacOSX10.4u.sdk
+c000000004A1199E200000000000000EE
+t1242667490
+s238
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h
+c0000000046F2350C000000000000F6CD
+t1190278412
+s63181
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOMessage.h
+c0000000046F234EF0000000000000C14
+t1190278383
+s3092
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/IOKit.framework/Headers/ps/IOPSKeys.h
+c0000000046F2350C0000000000002918
+t1190278412
+s10520
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/IOKit.framework/Headers/ps/IOPowerSources.h
+c0000000046F2350C0000000000001090
+t1190278412
+s4240
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/IOKit.framework/Headers/pwr_mgt/IOPMLib.h
+c0000000046F2350C0000000000002DC4
+t1190278412
+s11716
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Security.framework/Headers/Authorization.h
+c00000000462EA4F80000000000005502
+t1177462008
+s21762
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Security.framework/Headers/AuthorizationDB.h
+c00000000462EA4F80000000000001824
+t1177462008
+s6180
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Security.framework/Headers/AuthorizationTags.h
+c00000000462EA4F80000000000000EE0
+t1177462008
+s3808
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/mach/mach_init.h
+c00000000463BAA5B0000000000000E1F
+t1178315355
+s3615
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/mach/mach_interface.h
+c00000000463BAA5B00000000000006C8
+t1178315355
+s1736
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/mach/mach_port.h
+c00000000463BAA5B0000000000006D94
+t1178315355
+s28052
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/openssl/evp.h
+c00000000462EA07500000000000082CE
+t1177460853
+s33486
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/stdio.h
+c00000000463BAA5A0000000000003B7F
+t1178315354
+s15231
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/stdlib.h
+c00000000463BAA5A0000000000002647
+t1178315354
+s9799
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/string.h
+c00000000463BAA5A00000000000014D3
+t1178315354
+s5331
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/unistd.h
+c00000000463BAA5A0000000000004EED
+t1178315354
+s20205
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004A49A9E400000000000000EE
+t1246341604
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h
+c00000000481BC12A0000000000010CC8
+t1209778474
+s68808
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOMessage.h
+c0000000047E883940000000000000DE0
+t1206420372
+s3552
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/ps/IOPSKeys.h
+c00000000481BC1290000000000002918
+t1209778473
+s10520
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/ps/IOPowerSources.h
+c00000000481BC1290000000000001090
+t1209778473
+s4240
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/pwr_mgt/IOPMLib.h
+c00000000481BC12A000000000000426F
+t1209778474
+s17007
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Security.framework/Headers/Authorization.h
+c00000000490261C3000000000000563B
+t1224892867
+s22075
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Security.framework/Headers/AuthorizationDB.h
+c00000000490261C30000000000001825
+t1224892867
+s6181
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Security.framework/Headers/AuthorizationTags.h
+c00000000490261C30000000000000EC4
+t1224892867
+s3780
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/mach/mach_init.h
+c0000000048648AD90000000000000FBC
+t1214548697
+s4028
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/mach/mach_interface.h
+c0000000048648AD9000000000000082B
+t1214548697
+s2091
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/mach/mach_port.h
+c0000000048648ADA0000000000006D94
+t1214548698
+s28052
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/openssl/evp.h
+c0000000048649BAF00000000000082CE
+t1214553007
+s33486
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdio.h
+c0000000047BA99310000000000003D1D
+t1203411249
+s15645
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdlib.h
+c0000000047BA99310000000000002A79
+t1203411249
+s10873
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/string.h
+c0000000047BA99320000000000001731
+t1203411250
+s5937
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/unistd.h
+c0000000047BA993200000000000053FF
+t1203411250
+s21503
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h
+c000000004A4D52090000000000012048
+t1246581257
+s73800
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOMessage.h
+c000000004A73D6500000000000000DE0
+t1249105488
+s3552
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/ps/IOPSKeys.h
+c000000004A4D5207000000000000564A
+t1246581255
+s22090
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/ps/IOPowerSources.h
+c000000004A4D52070000000000001A14
+t1246581255
+s6676
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/pwr_mgt/IOPMLib.h
+c000000004A4D52080000000000006CA0
+t1246581256
+s27808
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Security.framework/Headers/Authorization.h
+c000000004A4D51FA00000000000056D5
+t1246581242
+s22229
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Security.framework/Headers/AuthorizationDB.h
+c000000004A4D51FA00000000000018BB
+t1246581242
+s6331
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Security.framework/Headers/AuthorizationTags.h
+c000000004A4D51FA0000000000000EC4
+t1246581242
+s3780
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/mach/mach_init.h
+c000000004A73D45400000000000010A7
+t1249104980
+s4263
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/mach/mach_interface.h
+c000000004A73D454000000000000082B
+t1249104980
+s2091
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/mach/mach_port.h
+c000000004A73D45400000000000077CA
+t1249104980
+s30666
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/evp.h
+c000000004A58360C00000000000096EA
+t1247294988
+s38634
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004A5C14A70000000000001731
+t1247548583
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004A5C14A7000000000000563E
+t1247548583
+s22078
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c000000004A4D5233000000000016E510
+t1246581299
+s1500432
+
+N/System/Library/Frameworks/Security.framework/Security
+c000000004A4D521F0000000000A0ECD0
+t1246581279
+s10546384
+
+N/System/Library/Frameworks/WebKit.framework/WebKit
+c000000004A6E9F7000000000004DFF50
+t1248763760
+s5111632
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/English.lproj/F.A.Q.rtf
+c0000000049DDF5660000000000002074
+t1239283046
+s8308
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/English.lproj/InfoPlist.strings
+c0000000049DA6C0A00000000000000E6
+t1239051274
+s230
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/English.lproj/Localizable.strings
+c000000004593CAFD0000000000000000
+t1167313661
+s0
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/English.lproj/MainMenu.nib
+c0000000049DE3E3500000000000000AA
+t1239301685
+s170
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/FanControl.h
+c0000000049DA26AB0000000000000C44
+t1239033515
+s3140
+i<Cocoa/Cocoa.h>
+i<smc.h>
+i<smcWrapper.h>
+i<MachineDefaults.h>
+i<Power.h>
+i<mach/mach_port.h>
+i<mach/mach_interface.h>
+i<mach/mach_init.h>
+i<IOKit/pwr_mgt/IOPMLib.h>
+i<IOKit/IOMessage.h>
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/FanControl.m
+c0000000049DE470E0000000000005CF9
+t1239303950
+s23801
+i"FanControl.h"
+i"MachineDefaults.h"
+i<Security/Authorization.h>
+i<Security/AuthorizationDB.h>
+i<Security/AuthorizationTags.h>
+i<Sparkle/SUUpdater.h>
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/German.lproj/F.A.Q.rtf
+c0000000049DDF56B0000000000002074
+t1239283051
+s8308
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/German.lproj/Localizable.strings
+c0000000045FE9711000000000000043E
+t1174312721
+s1086
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/German.lproj/MainMenu.nib
+c0000000049DDF73200000000000000AA
+t1239283506
+s170
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/MachineDefaults.h
+c00000000466F42FE000000000000047A
+t1181696766
+s1146
+i<Cocoa/Cocoa.h>
+i<smcWrapper.h>
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/MachineDefaults.m
+c0000000049DCB1280000000000001437
+t1239200040
+s5175
+i"MachineDefaults.h"
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Machines.plist
+c0000000049DDF4F00000000000003066
+t1239282928
+s12390
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Power.h
+c000000004542AD1400000000000006FE
+t1161997588
+s1790
+i<Cocoa/Cocoa.h>
+i<IOKit/IOKitLib.h>
+i<IOKit/ps/IOPSKeys.h>
+i<IOKit/ps/IOPowerSources.h>
+i<IOKit/pwr_mgt/IOPMLib.h>
+i<IOKit/IOMessage.h>
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Power.m
+c00000000466F4855000000000000146E
+t1181698133
+s5230
+i"Power.h"
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Spanish.lproj/F.A.Q.rtf
+c0000000049DDF5700000000000001F10
+t1239283056
+s7952
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Spanish.lproj/InfoPlist.strings
+c0000000049DA6C1000000000000000E6
+t1239051280
+s230
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Spanish.lproj/Localizable.strings
+c0000000049DA6D4200000000000003D7
+t1239051586
+s983
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Spanish.lproj/MainMenu.nib
+c0000000049DDF78A00000000000000AA
+t1239283594
+s170
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Sparkle.framework
+c000000004AAB136000000000000000EE
+t1252725600
+s238
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Sparkle.framework/Headers/SUUpdater.h
+c0000000044B85FD10000000000000878
+t1152933841
+s2168
+i<Cocoa/Cocoa.h>
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Sparkle.framework/Sparkle
+c0000000044B85FDE0000000000030300
+t1152933854
+s197376
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/StatusItemWindow.h
+c00000000453EB28100000000000003BF
+t1161736833
+s959
+i<Cocoa/Cocoa.h>
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/StatusItemWindow.m
+c000000004556265A000000000000042F
+t1163273818
+s1071
+i"StatusItemWindow.h"
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app
+t1257854263
+s102
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Frameworks/Sparkle.framework
+t1257854096
+s204
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Info.plist
+t1257854092
+s1231
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/MacOS/smcFanControl
+t1257854263
+s77512
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/PkgInfo
+t1257854092
+s8
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/English.lproj/F.A.Q.rtf
+t1257854093
+s8308
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1257854093
+s230
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/English.lproj/Localizable.strings
+t1257854093
+s0
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/English.lproj/MainMenu.nib
+t1257854093
+s57705
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/German.lproj/F.A.Q.rtf
+t1257854093
+s8308
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/German.lproj/Localizable.strings
+t1257854093
+s2160
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/German.lproj/MainMenu.nib
+t1257854093
+s57508
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/Machines.plist
+t1257854104
+s12831
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/Spanish.lproj/F.A.Q.rtf
+t1257854093
+s7952
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/Spanish.lproj/InfoPlist.strings
+t1257854093
+s230
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/Spanish.lproj/Localizable.strings
+t1257854093
+s1954
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/Spanish.lproj/MainMenu.nib
+t1257854093
+s58860
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/paypal.gif
+t1257854093
+s857
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/smc
+t1257854093
+s18292
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/smc.png
+t1257854093
+s3575
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/smc_loginitem.scpt
+t1257854092
+s1778
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/smc_loginitem_remove.scpt
+t1257854092
+s1126
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/smcfancontrol_v2.icns
+t1257854093
+s55892
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/smcover.png
+t1257854093
+s3165
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/FanControl.o
+t1257854261
+s90828
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/MachineDefaults.o
+t1257854263
+s30248
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/Power.o
+t1257854263
+s17796
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/StatusItemWindow.o
+t1257854262
+s15308
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/main.o
+t1257854261
+s4920
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/smc.o
+t1257854260
+s22496
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/smcFanControl.LinkFileList
+c000000004AF9548C000000000000042F
+t1257854092
+s1071
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/smcWrapper.o
+t1257854262
+s18144
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/main.m
+c00000000452E7E7000000000000003CB
+t1160674928
+s971
+i<Cocoa/Cocoa.h>
+i"smc.h"
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/paypal.gif
+c00000000449425400000000000000359
+t1150559552
+s857
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc
+c000000004919892E0000000000004774
+t1226410286
+s18292
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c
+c0000000049DCC7110000000000003A15
+t1239205649
+s14869
+i<unistd.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<IOKit/IOKitLib.h>
+i"smc.h"
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.h
+c00000000452CCB8C0000000000000B87
+t1160563596
+s2951
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.png
+c0000000045D68AD40000000000000DF7
+t1171688148
+s3575
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcWrapper.h
+c0000000045FB9CAA00000000000004EA
+t1174117546
+s1258
+i<openssl/evp.h>
+i<Cocoa/Cocoa.h>
+i<smc.h>
+i<MachineDefaults.h>
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcWrapper.m
+c0000000049DE1EE6000000000000141E
+t1239293670
+s5150
+i"smcWrapper.h"
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc_loginitem.scpt
+c000000004542816100000000000006F2
+t1161986401
+s1778
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc_loginitem_remove.scpt
+c0000000045429DAF0000000000000466
+t1161993647
+s1126
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcfancontrol_v2.icns
+c0000000045BD47D5000000000000DA54
+t1170032597
+s55892
+
+N/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcover.png
+c0000000045FBFBF70000000000000C5D
+t1174141943
+s3165
+
+N/usr/lib/libcrypto.dylib
+c000000004A58360D0000000000430AF0
+t1247294989
+s4393712
+
+N/usr/lib/libssl.dylib
+c000000004A58361300000000000E28B0
+t1247294995
+s927920
+
+NInfo.plist
+c0000000049DE472F00000000000004CF
+t1239303983
+s1231
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies279547060#279547060#0(0"0(0#1#0"31525334837231728#0"0#
+
+CCompileC build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/FanControl.o /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/FanControl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279547060.828819
+e279547061.861675
+r1
+xCompileC
+xbuild/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/FanControl.o
+x/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/FanControl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/FanControl.m: In function '+[FanControl setRights]':
+o/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/FanControl.m:635: warning: 'cString' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:345)
+o/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/FanControl.m:643: warning: 'cString' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:345)
+lSLF07#2@92"Compile /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/FanControl.m279547060#279547061#0(601"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/FanControl.m: In function '+[FanControl setRights]':/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/FanControl.m:635: warning: 'cString' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:345)/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/FanControl.m:643: warning: 'cString' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:345)2(22@138"'cString' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:345)279547061#125#238#0(6@84"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/FanControl.m260996750#635#0#635#0#33"'*' is deprecated (declared at *)0(22@138"'cString' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:345)279547061#363#238#0(6@84"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/FanControl.m260996750#643#0#643#0#33"'*' is deprecated (declared at *)0(0#0#84"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/FanControl.m4300882208#1310"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/smcFanControl.hmap -F/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug -F/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/include -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/DerivedSources/i386 -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/DerivedSources -fnested-functions -c /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/FanControl.m -o /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/FanControl.o0#
+
+CCompileC build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/MachineDefaults.o /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/MachineDefaults.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279547062.724889
+e279547063.515579
+r1
+xCompileC
+xbuild/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/MachineDefaults.o
+x/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/MachineDefaults.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/MachineDefaults.m279547062#279547063#0(0"0(0#0#89"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/MachineDefaults.m4300882208#1320"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/smcFanControl.hmap -F/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug -F/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/include -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/DerivedSources/i386 -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/DerivedSources -fnested-functions -c /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/MachineDefaults.m -o /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/MachineDefaults.o0#
+
+CCompileC build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/Power.o /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Power.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279547062.289786
+e279547063.090405
+r1
+xCompileC
+xbuild/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/Power.o
+x/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Power.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Power.m279547062#279547063#0(0"0(0#0#79"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Power.m4300882208#1300"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/smcFanControl.hmap -F/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug -F/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/include -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/DerivedSources/i386 -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/DerivedSources -fnested-functions -c /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Power.m -o /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/Power.o0#
+
+CCompileC build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/StatusItemWindow.o /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/StatusItemWindow.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279547061.483955
+e279547062.289584
+r1
+xCompileC
+xbuild/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/StatusItemWindow.o
+x/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/StatusItemWindow.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/StatusItemWindow.m279547061#279547062#0(0"0(0#0#90"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/StatusItemWindow.m4300882208#1322"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/smcFanControl.hmap -F/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug -F/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/include -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/DerivedSources/i386 -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/DerivedSources -fnested-functions -c /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/StatusItemWindow.m -o /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/StatusItemWindow.o0#
+
+CCompileC build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/main.o /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279547060.645648
+e279547061.483851
+r1
+xCompileC
+xbuild/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/main.o
+x/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/main.m279547060#279547061#0(0"0(0#0#78"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/main.m7162247752870487040#1298"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/smcFanControl.hmap -F/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug -F/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/include -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/DerivedSources/i386 -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/DerivedSources -fnested-functions -c /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/main.m -o /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/main.o0#
+
+CCompileC build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/smc.o /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c normal i386 c com.apple.compilers.gcc.4_2
+s279547060.646893
+e279547060.828710
+r1
+xCompileC
+xbuild/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/smc.o
+x/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c: In function 'SMCCall':
+o/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c:170: warning: 'IOConnectMethodStructureIStructureO' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h:1314)
+o/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c: In function 'SMCCall2':
+o/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c:187: warning: 'IOConnectMethodStructureIStructureO' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h:1314)
+o/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c: In function 'SMCReadKey2':
+o/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c:208: warning: format not a string literal and no format arguments
+o/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c: In function 'SMCReadKey':
+o/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c:239: warning: format not a string literal and no format arguments
+o/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c: In function 'SMCWriteSimple':
+o/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c:431: warning: format not a string literal and no format arguments
+o/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c: In function 'main_deac':
+o/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c:534: warning: format not a string literal and no format arguments
+lSLF07#2@85"Compile /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c279547060#279547060#0(1715"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c: In function 'SMCCall':/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c:170: warning: 'IOConnectMethodStructureIStructureO' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h:1314)/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c: In function 'SMCCall2':/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c:187: warning: 'IOConnectMethodStructureIStructureO' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h:1314)/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c: In function 'SMCReadKey2':/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c:208: warning: format not a string literal and no format arguments/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c: In function 'SMCReadKey':/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c:239: warning: format not a string literal and no format arguments/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c: In function 'SMCWriteSimple':/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c:431: warning: format not a string literal and no format arguments/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c: In function 'main_deac':/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c:534: warning: format not a string literal and no format arguments6(22@162"'IOConnectMethodStructureIStructureO' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h:1314)279547060#102#255#0(6@77"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c260898449#170#0#170#0#33"'*' is deprecated (declared at *)0(22@162"'IOConnectMethodStructureIStructureO' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h:1314)279547060#460#255#0(6@77"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c260898449#187#0#187#0#33"'*' is deprecated (declared at *)0(22@51"Format not a string literal and no format arguments279547060#821#144#0(6@77"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c260898449#208#0#208#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments279547060#1070#144#0(6@77"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c260898449#239#0#239#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments279547060#1323#144#0(6@77"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c260898449#431#0#431#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments279547060#1571#144#0(6@77"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c260898449#534#0#534#0#51"format not a string literal and no format arguments0(0#0#77"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c4300882208#1286"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/smcFanControl.hmap -F/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug -F/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/include -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/DerivedSources/i386 -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/DerivedSources -fnested-functions -c /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.c -o /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/smc.o0#
+
+CCompileC build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/smcWrapper.o /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcWrapper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279547061.861822
+e279547062.724786
+r1
+xCompileC
+xbuild/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/smcWrapper.o
+x/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcWrapper.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcWrapper.m: In function '+[smcWrapper init]':
+o/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcWrapper.m:30: warning: conflicting types for '+(void)init'
+o/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:72: warning: previous declaration of '+(id)init'
+o/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcWrapper.m: In function '+[smcWrapper get_maintemp]':
+o/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcWrapper.m:58: warning: format '%c' expects type 'int', but argument 3 has type 'char *'
+lSLF07#2@92"Compile /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcWrapper.m279547061#279547062#0(691"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcWrapper.m: In function '+[smcWrapper init]':/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcWrapper.m:30: warning: conflicting types for '+(void)init'/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:72: warning: previous declaration of '+(id)init'/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcWrapper.m: In function '+[smcWrapper get_maintemp]':/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcWrapper.m:58: warning: format '%c' expects type 'int', but argument 3 has type 'char *'3(22@35"Conflicting types for '+(void)init'279547062#120#134#0(6@84"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcWrapper.m260986470#30#0#30#0#25"conflicting types for '*'0(22@35"Previous declaration of '+(id)init'279547062#254#146#0(6@96"/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h236247371#72#0#72#0#0"0(22@64"Format '%c' expects type 'int', but argument 3 has type 'char *'279547062#528#163#0(6@84"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcWrapper.m260986470#58#0#58#0#56"format '*' expects type '*', but argument * has type '*'0(0#0#84"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcWrapper.m4300882208#1310"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/smcFanControl.hmap -F/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug -F/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/include -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/DerivedSources/i386 -I/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/DerivedSources -fnested-functions -c /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcWrapper.m -o /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/smcWrapper.o0#
+
+CCopyPlistFile /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/Machines.plist Machines.plist
+s279546893.024164
+e279546893.075037
+r1
+xCopyPlistFile
+x/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/Machines.plist
+xMachines.plist
+lSLF07#2@19"Copy Machines.plist279546893#279546893#0(0"0(0#0#86"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Machines.plist4300882208#315"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist Machines.plist --outdir /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources0#
+
+CCopyStringsFile /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s279546892.788048
+e279546893.023079
+r1
+xCopyStringsFile
+x/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings279546892#279546893#0(0"0(0#0#103"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/English.lproj/InfoPlist.strings4300882208#438"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/English.lproj/Localizable.strings English.lproj/Localizable.strings
+s279546893.068812
+e279546893.103794
+r1
+xCopyStringsFile
+x/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/English.lproj/Localizable.strings
+xEnglish.lproj/Localizable.strings
+oEnglish.lproj/Localizable.strings: Cannot parse a NULL or zero-length data
+lSLF07#2@38"Copy English.lproj/Localizable.strings279546893#279546893#0(75"English.lproj/Localizable.strings: Cannot parse a NULL or zero-length data0(0#0#105"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/English.lproj/Localizable.strings4300882208#440"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/Localizable.strings --outdir /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/German.lproj/Localizable.strings German.lproj/Localizable.strings
+s279546893.075849
+e279546893.105719
+r1
+xCopyStringsFile
+x/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/German.lproj/Localizable.strings
+xGerman.lproj/Localizable.strings
+lSLF07#2@37"Copy German.lproj/Localizable.strings279546893#279546893#0(0"0(0#0#104"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/German.lproj/Localizable.strings4300882208#437"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 German.lproj/Localizable.strings --outdir /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/German.lproj0#
+
+CCopyStringsFile /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/Spanish.lproj/InfoPlist.strings Spanish.lproj/InfoPlist.strings
+s279546892.892449
+e279546893.005768
+r1
+xCopyStringsFile
+x/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/Spanish.lproj/InfoPlist.strings
+xSpanish.lproj/InfoPlist.strings
+oSpanish.lproj/InfoPlist.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-16
+lSLF07#2@36"Copy Spanish.lproj/InfoPlist.strings279546892#279546893#0(133"Spanish.lproj/InfoPlist.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-160(0#0#103"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Spanish.lproj/InfoPlist.strings4300882208#437"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 Spanish.lproj/InfoPlist.strings --outdir /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/Spanish.lproj0#
+
+CCopyStringsFile /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/Spanish.lproj/Localizable.strings Spanish.lproj/Localizable.strings
+s279546893.103895
+e279546893.162583
+r1
+xCopyStringsFile
+x/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/Spanish.lproj/Localizable.strings
+xSpanish.lproj/Localizable.strings
+lSLF07#2@38"Copy Spanish.lproj/Localizable.strings279546893#279546893#0(0"0(0#0#105"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Spanish.lproj/Localizable.strings4300882208#439"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 Spanish.lproj/Localizable.strings --outdir /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/Spanish.lproj0#
+
+CCpResource build/Debug/smcFanControl.app/Contents/Resources/English.lproj/F.A.Q.rtf English.lproj/F.A.Q.rtf
+s279546893.290351
+e279546893.311725
+r1
+xCpResource
+xbuild/Debug/smcFanControl.app/Contents/Resources/English.lproj/F.A.Q.rtf
+xEnglish.lproj/F.A.Q.rtf
+lSLF07#2@28"Copy English.lproj/F.A.Q.rtf279546893#279546893#0(0"0(0#0#95"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/English.lproj/F.A.Q.rtf4300882208#458"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/English.lproj/F.A.Q.rtf /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/smcFanControl.app/Contents/Resources/German.lproj/F.A.Q.rtf German.lproj/F.A.Q.rtf
+s279546893.291579
+e279546893.312549
+r1
+xCpResource
+xbuild/Debug/smcFanControl.app/Contents/Resources/German.lproj/F.A.Q.rtf
+xGerman.lproj/F.A.Q.rtf
+lSLF07#2@27"Copy German.lproj/F.A.Q.rtf279546893#279546893#0(0"0(0#0#94"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/German.lproj/F.A.Q.rtf4300882208#456"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/German.lproj/F.A.Q.rtf /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/German.lproj0#
+
+CCpResource build/Debug/smcFanControl.app/Contents/Resources/Spanish.lproj/F.A.Q.rtf Spanish.lproj/F.A.Q.rtf
+s279546893.293176
+e279546893.314564
+r1
+xCpResource
+xbuild/Debug/smcFanControl.app/Contents/Resources/Spanish.lproj/F.A.Q.rtf
+xSpanish.lproj/F.A.Q.rtf
+lSLF07#2@28"Copy Spanish.lproj/F.A.Q.rtf279546893#279546893#0(0"0(0#0#95"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Spanish.lproj/F.A.Q.rtf4300882208#458"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Spanish.lproj/F.A.Q.rtf /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/Spanish.lproj0#
+
+CCpResource build/Debug/smcFanControl.app/Contents/Resources/paypal.gif paypal.gif
+s279546893.068063
+e279546893.075764
+r1
+xCpResource
+xbuild/Debug/smcFanControl.app/Contents/Resources/paypal.gif
+xpaypal.gif
+lSLF07#2@15"Copy paypal.gif279546893#279546893#0(0"0(0#0#82"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/paypal.gif4300882208#431"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/paypal.gif /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources0#
+
+CCpResource build/Debug/smcFanControl.app/Contents/Resources/smc smc
+s279546893.023248
+e279546893.067963
+r1
+xCpResource
+xbuild/Debug/smcFanControl.app/Contents/Resources/smc
+xsmc
+lSLF07#2@8"Copy smc279546893#279546893#0(0"0(0#0#75"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc4300882208#424"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources0#
+
+CCpResource build/Debug/smcFanControl.app/Contents/Resources/smc.png smc.png
+s279546893.294875
+e279546893.313885
+r1
+xCpResource
+xbuild/Debug/smcFanControl.app/Contents/Resources/smc.png
+xsmc.png
+lSLF07#2@12"Copy smc.png279546893#279546893#0(0"0(0#0#79"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.png4300882208#428"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc.png /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources0#
+
+CCpResource build/Debug/smcFanControl.app/Contents/Resources/smc_loginitem.scpt smc_loginitem.scpt
+s279546892.782892
+e279546892.810905
+r1
+xCpResource
+xbuild/Debug/smcFanControl.app/Contents/Resources/smc_loginitem.scpt
+xsmc_loginitem.scpt
+lSLF07#2@23"Copy smc_loginitem.scpt279546892#279546892#0(0"0(0#0#90"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc_loginitem.scpt4300882208#439"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc_loginitem.scpt /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources0#
+
+CCpResource build/Debug/smcFanControl.app/Contents/Resources/smc_loginitem_remove.scpt smc_loginitem_remove.scpt
+s279546892.784041
+e279546892.892302
+r1
+xCpResource
+xbuild/Debug/smcFanControl.app/Contents/Resources/smc_loginitem_remove.scpt
+xsmc_loginitem_remove.scpt
+lSLF07#2@30"Copy smc_loginitem_remove.scpt279546892#279546892#0(0"0(0#0#97"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc_loginitem_remove.scpt4300882208#446"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smc_loginitem_remove.scpt /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources0#
+
+CCpResource build/Debug/smcFanControl.app/Contents/Resources/smcfancontrol_v2.icns smcfancontrol_v2.icns
+s279546893.105815
+e279546893.135910
+r1
+xCpResource
+xbuild/Debug/smcFanControl.app/Contents/Resources/smcfancontrol_v2.icns
+xsmcfancontrol_v2.icns
+lSLF07#2@26"Copy smcfancontrol_v2.icns279546893#279546893#0(0"0(0#0#93"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcfancontrol_v2.icns4300882208#442"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcfancontrol_v2.icns /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources0#
+
+CCpResource build/Debug/smcFanControl.app/Contents/Resources/smcover.png smcover.png
+s279546893.296565
+e279546893.311892
+r1
+xCpResource
+xbuild/Debug/smcFanControl.app/Contents/Resources/smcover.png
+xsmcover.png
+lSLF07#2@16"Copy smcover.png279546893#279546893#0(0"0(0#0#83"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcover.png4300882208#432"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/smcover.png /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources0#
+
+CLd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/MacOS/smcFanControl normal i386
+s279547063.515676
+e279547063.707102
+r1
+xLd
+x/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/MacOS/smcFanControl
+xnormal
+xi386
+lSLF07#2@135"Link /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/MacOS/smcFanControl279547063#279547063#0(0"0(0#0#0"4300882208#893"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug -F/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug -F/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources -filelist /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/FanControl.build/Debug/smcFanControl.build/Objects-normal/i386/smcFanControl.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework IOKit -framework Security -framework WebKit -lcrypto -lssl -framework Sparkle -o /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/MacOS/smcFanControl0#
+
+CPBXCp build/Debug/smcFanControl.app/Contents/Frameworks/Sparkle.framework Sparkle.framework
+s279546896.824378
+e279546896.867377
+r1
+xPBXCp
+xbuild/Debug/smcFanControl.app/Contents/Frameworks/Sparkle.framework
+xSparkle.framework
+lSLF07#2@22"Copy Sparkle.framework279546896#279546896#0(0"0(0#0#89"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Sparkle.framework4300882208#439"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Sparkle.framework /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Frameworks0#
+
+CProcessInfoPlistFile /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Info.plist Info.plist
+s279546892.762832
+e279546892.782777
+r1
+xProcessInfoPlistFile
+x/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist279546892#279546892#0(0"0(0#0#82"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Info.plist28992425118793828#413"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    builtin-infoPlistUtility Info.plist -genpkginfo /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Info.plist0#
+
+CStripNIB /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/English.lproj/MainMenu.nib
+s279546893.106529
+e279546893.235140
+r1
+xStripNIB
+x/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/English.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB English.lproj/MainMenu.nib279546893#279546893#0(0"0(0#0#98"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/English.lproj/MainMenu.nib4300882208#400"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    /Developer/usr/bin/ibtool --strip /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/English.lproj/MainMenu.nib0#
+
+CStripNIB /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/German.lproj/MainMenu.nib
+s279546893.162688
+e279546893.290253
+r1
+xStripNIB
+x/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/German.lproj/MainMenu.nib
+lSLF07#2@34"StripNIB German.lproj/MainMenu.nib279546893#279546893#0(0"0(0#0#97"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/German.lproj/MainMenu.nib4300882208#398"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    /Developer/usr/bin/ibtool --strip /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/German.lproj/MainMenu.nib --output-format human-readable-text /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/German.lproj/MainMenu.nib0#
+
+CStripNIB /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Spanish.lproj/MainMenu.nib
+s279546893.235226
+e279546893.355790
+r1
+xStripNIB
+x/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Spanish.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB Spanish.lproj/MainMenu.nib279546893#279546893#0(0"0(0#0#98"/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Spanish.lproj/MainMenu.nib4300882208#400"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    /Developer/usr/bin/ibtool --strip /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app/Contents/Resources/Spanish.lproj/MainMenu.nib --output-format human-readable-text /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Spanish.lproj/MainMenu.nib0#
+
+CTouch /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app
+s279547063.707280
+e279547063.710035
+r1
+xTouch
+x/Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app
+lSLF07#2@107"Touch /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app279547063#279547063#0(0"0(0#0#0"4300882208#203"    cd /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources    /usr/bin/touch -c /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/build/Debug/smcFanControl.app0#
+
