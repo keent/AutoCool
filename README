@@ -1,0 +1,16 @@
+AutoCool is a hacked version of smcFanControl 
+by Hendrik Holtmann - http://www.eidac.de/
+
+I added a simple yet useful feature which 'automatically'
+updates your macbook pro's fan speed depending on its current temperature.
+
+Check out Fancontrol.m for the modification.
+
+
+TO DO:
+======
+1. Implement and test for other Macs.
+
+License is under GPL, (c) 2009 Gran Ville Van Lintao
+See LICENSE for more info
+
