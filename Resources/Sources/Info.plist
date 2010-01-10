@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>smcFanControl</string>
+	<string>AutoCool</string>
 	<key>CFBundleGetInfoString</key>
 	<string>smcFanControl 2.2, Hendrik Holtmann (GPL)</string>
 	<key>CFBundleIconFile</key>

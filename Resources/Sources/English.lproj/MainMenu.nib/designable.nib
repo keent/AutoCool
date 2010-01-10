@@ -11,7 +11,7 @@
 			<string key="NS.object.0">732</string>
 		</object>
 		<array class="NSMutableArray" key="IBDocument.EditedObjectIDs">
-			<integer value="884"/>
+			<integer value="21"/>
 			<integer value="524"/>
 			<integer value="377"/>
 			<integer value="394"/>
@@ -22,9 +22,7 @@
 		<dictionary class="NSMutableDictionary" key="IBDocument.Metadata"/>
 		<array class="NSMutableArray" key="IBDocument.RootObjects" id="191726188">
 			<object class="NSCustomObject" id="470243194">
-				<object class="NSMutableString" key="NSClassName">
-					<characters key="NS.bytes">NSApplication</characters>
-				</object>
+				<string key="NSClassName">NSApplication</string>
 			</object>
 			<object class="NSCustomObject" id="483189903">
 				<string key="NSClassName">FirstResponder</string>
@@ -2382,9 +2380,6 @@ IGZhdm9yaXRlICJkZWZhdWx0IiB3aWxsCmJlIHVzZWQuA</string>
 			<object class="NSCustomObject" id="691698825">
 				<string key="NSClassName">SUUpdater</string>
 			</object>
-			<object class="NSCustomObject" id="348630583">
-				<string key="NSClassName">AutoCool</string>
-			</object>
 		</array>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
 			<array class="NSMutableArray" key="connectionRecords">
@@ -4261,11 +4256,6 @@ IGZhdm9yaXRlICJkZWZhdWx0IiB3aWxsCmJlIHVzZWQuA</string>
 						<reference key="object" ref="1073000832"/>
 						<reference key="parent" ref="98950896"/>
 					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">894</int>
-						<reference key="object" ref="348630583"/>
-						<reference key="parent" ref="0"/>
-					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -4273,9 +4263,9 @@ IGZhdm9yaXRlICJkZWZhdWx0IiB3aWxsCmJlIHVzZWQuA</string>
 				<boolean value="YES" key="-3.ImportedFromIB2"/>
 				<string key="2.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<boolean value="YES" key="2.ImportedFromIB2"/>
-				<string key="21.IBEditorWindowLastContentRect">{{2079, 38}, {348, 498}}</string>
+				<string key="21.IBEditorWindowLastContentRect">{{521, 190}, {348, 498}}</string>
 				<string key="21.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="21.IBWindowTemplateEditedContentRect">{{2079, 38}, {348, 498}}</string>
+				<string key="21.IBWindowTemplateEditedContentRect">{{521, 190}, {348, 498}}</string>
 				<boolean value="YES" key="21.ImportedFromIB2"/>
 				<boolean value="YES" key="21.windowTemplate.hasMinSize"/>
 				<string key="21.windowTemplate.minSize">{213, 107}</string>
@@ -4292,9 +4282,9 @@ IGZhdm9yaXRlICJkZWZhdWx0IiB3aWxsCmJlIHVzZWQuA</string>
 				<boolean value="YES" key="375.ImportedFromIB2"/>
 				<string key="376.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<boolean value="YES" key="376.ImportedFromIB2"/>
-				<string key="377.IBEditorWindowLastContentRect">{{2391, 600}, {299, 327}}</string>
+				<string key="377.IBEditorWindowLastContentRect">{{981, 429}, {299, 327}}</string>
 				<string key="377.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="377.IBWindowTemplateEditedContentRect">{{2391, 600}, {299, 327}}</string>
+				<string key="377.IBWindowTemplateEditedContentRect">{{981, 429}, {299, 327}}</string>
 				<boolean value="YES" key="377.ImportedFromIB2"/>
 				<boolean value="YES" key="377.windowTemplate.hasMinSize"/>
 				<string key="377.windowTemplate.minSize">{213, 107}</string>
@@ -4314,7 +4304,7 @@ IGZhdm9yaXRlICJkZWZhdWx0IiB3aWxsCmJlIHVzZWQuA</string>
 				<boolean value="YES" key="384.ImportedFromIB2"/>
 				<string key="385.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<boolean value="YES" key="385.ImportedFromIB2"/>
-				<string key="394.IBEditorWindowLastContentRect">{{2112, 786}, {202, 133}}</string>
+				<string key="394.IBEditorWindowLastContentRect">{{1078, 623}, {202, 133}}</string>
 				<string key="394.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<boolean value="YES" key="394.ImportedFromIB2"/>
 				<string key="396.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -4421,9 +4411,9 @@ IGZhdm9yaXRlICJkZWZhdWx0IiB3aWxsCmJlIHVzZWQuA</string>
 				<boolean value="YES" key="492.ImportedFromIB2"/>
 				<string key="518.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<boolean value="YES" key="518.ImportedFromIB2"/>
-				<string key="524.IBEditorWindowLastContentRect">{{2104, 595}, {221, 145}}</string>
+				<string key="524.IBEditorWindowLastContentRect">{{1059, 595}, {221, 145}}</string>
 				<string key="524.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="524.IBWindowTemplateEditedContentRect">{{2104, 595}, {221, 145}}</string>
+				<string key="524.IBWindowTemplateEditedContentRect">{{1059, 595}, {221, 145}}</string>
 				<boolean value="YES" key="524.ImportedFromIB2"/>
 				<boolean value="YES" key="524.windowTemplate.hasMinSize"/>
 				<string key="524.windowTemplate.minSize">{213, 107}</string>

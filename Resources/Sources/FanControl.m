@@ -59,7 +59,6 @@ BOOL autoCoolON = NO;
 	
 	//app in foreground for update notifications
 	[[NSApplication sharedApplication] activateIgnoringOtherApps:YES];
-
 }
 
 
@@ -198,13 +197,19 @@ BOOL autoCoolON = NO;
 	menu_image=[[NSImage alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"smc" ofType:@"png"]];
 	menu_image_alt=[[NSImage alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"smcover" ofType:@"png"]];
 
+
 	//release MachineDefaults class first call
 	//add timer for reading to RunLoop
 	_readTimer = [NSTimer scheduledTimerWithTimeInterval:3.0 target:self selector:@selector(readFanData:) userInfo:nil repeats:YES];
 	[_readTimer fire];
+	
+	// Added by GVL 01/10/10
+	// Start autoCool thread upon startup
+	_readTimer = [NSTimer scheduledTimerWithTimeInterval:4.0 target:self selector:@selector(setAutoCoolOn:) userInfo:nil repeats:NO];
+	[_readTimer fire];
+	
 	//autoapply settings if valid
 	[self upgradeFavorites];
-		
 }
 
 

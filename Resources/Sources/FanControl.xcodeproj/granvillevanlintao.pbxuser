@@ -1,12 +1,19 @@
 // !$*UTF8*$!
 {
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 408}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 114}";
+		};
+	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Release;
-		activeExecutable = E352846710A98BFD00C50908 /* smcFanControl */;
+		activeExecutable = E352846710A98BFD00C50908 /* AutoCool */;
 		activeSDKPreference = macosx10.5;
-		activeTarget = 8D1107260486CEB800E47090 /* smcFanControl */;
+		activeTarget = 8D1107260486CEB800E47090 /* AutoCool */;
 		addToTargets = (
-			8D1107260486CEB800E47090 /* smcFanControl */,
+			8D1107260486CEB800E47090 /* AutoCool */,
 		);
 		breakpoints = (
 			E3406F6B10B323A9000962B5 /* FanControl.h:145 */,
@@ -14,7 +21,7 @@
 		);
 		codeSenseManager = E352848210A98BFF00C50908 /* Code sense */;
 		executables = (
-			E352846710A98BFD00C50908 /* smcFanControl */,
+			E352846710A98BFD00C50908 /* AutoCool */,
 		);
 		perUserDictionary = {
 			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
@@ -47,7 +54,7 @@
 				PBXFileTableDataSourceColumnWidthsKey = (
 					22,
 					300,
-					701.58349609375,
+					702,
 				);
 				PBXFileTableDataSourceColumnsKey = (
 					PBXExecutablesDataSource_ActiveFlagID,
@@ -77,25 +84,70 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 283248656;
-			PBXWorkspaceStateSaveDate = 283248656;
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					828,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					774,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 284790518;
+			PBXWorkspaceStateSaveDate = 284790518;
 		};
 		perUserProjectItems = {
-			E3406FC810B329C3000962B5 /* PBXTextBookmark */ = E3406FC810B329C3000962B5 /* PBXTextBookmark */;
-			E3A0C5A810E209CC001F1906 /* PBXTextBookmark */ = E3A0C5A810E209CC001F1906 /* PBXTextBookmark */;
-			E3A0C5A910E209CC001F1906 /* PBXTextBookmark */ = E3A0C5A910E209CC001F1906 /* PBXTextBookmark */;
-			E3A0C5AB10E209CC001F1906 /* PBXTextBookmark */ = E3A0C5AB10E209CC001F1906 /* PBXTextBookmark */;
-			E3A0C5AC10E209CC001F1906 /* PBXTextBookmark */ = E3A0C5AC10E209CC001F1906 /* PBXTextBookmark */;
-			E3A0C5AD10E209CC001F1906 /* PBXTextBookmark */ = E3A0C5AD10E209CC001F1906 /* PBXTextBookmark */;
-			E3A0C5AE10E209CC001F1906 /* PBXTextBookmark */ = E3A0C5AE10E209CC001F1906 /* PBXTextBookmark */;
-			E3A0C5B110E209CC001F1906 /* PBXTextBookmark */ = E3A0C5B110E209CC001F1906 /* PBXTextBookmark */;
-			E3A0C5B210E209CC001F1906 /* PBXTextBookmark */ = E3A0C5B210E209CC001F1906 /* PBXTextBookmark */;
-			E3A0C5B910E20A17001F1906 /* PBXTextBookmark */ = E3A0C5B910E20A17001F1906 /* PBXTextBookmark */;
-			E3A0C5BF10E21AF9001F1906 /* PBXTextBookmark */ = E3A0C5BF10E21AF9001F1906 /* PBXTextBookmark */;
-			E3A0C5C010E21AF9001F1906 /* PBXTextBookmark */ = E3A0C5C010E21AF9001F1906 /* PBXTextBookmark */;
-			E3A0C5C110E21AF9001F1906 /* PBXTextBookmark */ = E3A0C5C110E21AF9001F1906 /* PBXTextBookmark */;
-			E3A0C5C210E21AF9001F1906 /* PBXTextBookmark */ = E3A0C5C210E21AF9001F1906 /* PBXTextBookmark */;
-			E3AAA8AE10D0689200CBC4D8 /* PBXTextBookmark */ = E3AAA8AE10D0689200CBC4D8 /* PBXTextBookmark */;
+			E3302B6410F98EFB001C3B26 /* PBXTextBookmark */ = E3302B6410F98EFB001C3B26 /* PBXTextBookmark */;
+			E3302B7810F98F7F001C3B26 /* PBXTextBookmark */ = E3302B7810F98F7F001C3B26 /* PBXTextBookmark */;
+			E3302B7C10F98FA3001C3B26 /* PBXTextBookmark */ = E3302B7C10F98FA3001C3B26 /* PBXTextBookmark */;
+			E3302B7D10F98FA9001C3B26 /* PBXTextBookmark */ = E3302B7D10F98FA9001C3B26 /* PBXTextBookmark */;
+			E3302B7E10F98FAF001C3B26 /* PBXTextBookmark */ = E3302B7E10F98FAF001C3B26 /* PBXTextBookmark */;
+			E3302B7F10F98FFC001C3B26 /* PBXTextBookmark */ = E3302B7F10F98FFC001C3B26 /* PBXTextBookmark */;
+			E3406FC810B329C3000962B5 = E3406FC810B329C3000962B5 /* PBXTextBookmark */;
+			E3A0C5AB10E209CC001F1906 = E3A0C5AB10E209CC001F1906 /* PBXTextBookmark */;
+			E3A0C5AC10E209CC001F1906 = E3A0C5AC10E209CC001F1906 /* PBXTextBookmark */;
+			E3A0C5AD10E209CC001F1906 = E3A0C5AD10E209CC001F1906 /* PBXTextBookmark */;
+			E3A0C5AE10E209CC001F1906 = E3A0C5AE10E209CC001F1906 /* PBXTextBookmark */;
+			E3A0C5B110E209CC001F1906 = E3A0C5B110E209CC001F1906 /* PBXTextBookmark */;
+			E3A0C5B210E209CC001F1906 = E3A0C5B210E209CC001F1906 /* PBXTextBookmark */;
+			E3A0C5B910E20A17001F1906 = E3A0C5B910E20A17001F1906 /* PBXTextBookmark */;
+			E3A0C5BF10E21AF9001F1906 = E3A0C5BF10E21AF9001F1906 /* PBXTextBookmark */;
+			E3A0C5C010E21AF9001F1906 = E3A0C5C010E21AF9001F1906 /* PBXTextBookmark */;
+			E3AAA8AE10D0689200CBC4D8 = E3AAA8AE10D0689200CBC4D8 /* PBXTextBookmark */;
+			E3E601A910F98762001E504C = E3E601A910F98762001E504C /* PlistBookmark */;
+			E3E601AA10F98762001E504C = E3E601AA10F98762001E504C /* PBXTextBookmark */;
+			E3E601AB10F98762001E504C = E3E601AB10F98762001E504C /* PBXTextBookmark */;
+			E3E601AC10F98762001E504C = E3E601AC10F98762001E504C /* PBXBookmark */;
+			E3E601AD10F98762001E504C = E3E601AD10F98762001E504C /* PBXTextBookmark */;
+			E3E601AE10F98762001E504C = E3E601AE10F98762001E504C /* PlistBookmark */;
+			E3E601AF10F98762001E504C = E3E601AF10F98762001E504C /* PBXTextBookmark */;
+			E3E601EF10F98EA3001E504C = E3E601EF10F98EA3001E504C /* PBXTextBookmark */;
+			E3E601FD10F98EDE001E504C = E3E601FD10F98EDE001E504C /* PBXTextBookmark */;
 		};
 		sourceControlManager = E352848110A98BFF00C50908 /* Source Control */;
 		userBuildSettings = {
@@ -103,9 +155,10 @@
 	};
 	29B97316FDCFA39411CA2CEA /* main.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1237, 585}}";
-			sepNavSelRange = "{366, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {992, 416}}";
+			sepNavSelRange = "{907, 0}";
 			sepNavVisRange = "{0, 971}";
+			sepNavWindowFrame = "{{1295, 283}, {1025, 698}}";
 		};
 	};
 	32CA4F630368D1EE00C91783 /* FanControl_Prefix.pch */ = {
@@ -158,18 +211,25 @@
 			sepNavVisRange = "{1354, 1529}";
 		};
 	};
+	893506130B440249001BFBA5 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 408}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 0}";
+		};
+	};
 	894A465F0ADBD6CF008785F3 /* FanControl.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1237, 2093}}";
-			sepNavSelRange = "{923, 0}";
-			sepNavVisRange = "{0, 1273}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 1859}}";
+			sepNavSelRange = "{1035, 0}";
+			sepNavVisRange = "{571, 656}";
 		};
 	};
 	894A46600ADBD6CF008785F3 /* FanControl.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1811, 10127}}";
-			sepNavSelRange = "{23876, 0}";
-			sepNavVisRange = "{23425, 1048}";
+			sepNavIntBoundsRect = "{{0, 0}, {1594, 10218}}";
+			sepNavSelRange = "{8153, 0}";
+			sepNavVisRange = "{7618, 1219}";
 			sepNavWindowFrame = "{{61, 111}, {965, 620}}";
 		};
 	};
@@ -202,11 +262,71 @@
 			sepNavVisRange = "{1951, 1000}";
 		};
 	};
-	8D1107260486CEB800E47090 /* smcFanControl */ = {
+	8D1107260486CEB800E47090 /* AutoCool */ = {
 		activeExec = 0;
 		executables = (
-			E352846710A98BFD00C50908 /* smcFanControl */,
+			E352846710A98BFD00C50908 /* AutoCool */,
 		);
+	};
+	E3302B6410F98EFB001C3B26 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 894A46600ADBD6CF008785F3 /* FanControl.m */;
+		name = "FanControl.m: 212";
+		rLen = 0;
+		rLoc = 7059;
+		rType = 0;
+		vrLen = 1600;
+		vrLoc = 5843;
+	};
+	E3302B7810F98F7F001C3B26 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 894A46600ADBD6CF008785F3 /* FanControl.m */;
+		name = "FanControl.m: 209";
+		rLen = 0;
+		rLoc = 7014;
+		rType = 0;
+		vrLen = 1438;
+		vrLoc = 6004;
+	};
+	E3302B7C10F98FA3001C3B26 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 894A46600ADBD6CF008785F3 /* FanControl.m */;
+		name = "FanControl.m: 207";
+		rLen = 0;
+		rLoc = 6863;
+		rType = 0;
+		vrLen = 1211;
+		vrLoc = 10063;
+	};
+	E3302B7D10F98FA9001C3B26 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 894A46600ADBD6CF008785F3 /* FanControl.m */;
+		name = "FanControl.m: 312";
+		rLen = 0;
+		rLoc = 10473;
+		rType = 0;
+		vrLen = 1219;
+		vrLoc = 7618;
+	};
+	E3302B7E10F98FAF001C3B26 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 894A46600ADBD6CF008785F3 /* FanControl.m */;
+		name = "FanControl.m: 250";
+		rLen = 0;
+		rLoc = 7987;
+		rType = 0;
+		vrLen = 1219;
+		vrLoc = 7618;
+	};
+	E3302B7F10F98FFC001C3B26 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 894A46600ADBD6CF008785F3 /* FanControl.m */;
+		name = "FanControl.m: 254";
+		rLen = 0;
+		rLoc = 8153;
+		rType = 0;
+		vrLen = 1219;
+		vrLoc = 7618;
 	};
 	E3406F6B10B323A9000962B5 /* FanControl.h:145 */ = {
 		isa = PBXFileBreakpoint;
@@ -231,12 +351,6 @@
 		name = AutoCool.m;
 		path = /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/AutoCool.m;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {992, 689}}";
-			sepNavSelRange = "{826, 0}";
-			sepNavVisRange = "{0, 1030}";
-			sepNavWindowFrame = "{{15, 153}, {965, 620}}";
-		};
 	};
 	E3406FC110B32978000962B5 /* AutoCool.m:48 */ = {
 		isa = PBXFileBreakpoint;
@@ -251,7 +365,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 48;
-		modificationTime = 283249046.155451;
+		modificationTime = 283249046.1554511;
 		originalNumberOfMultipleMatches = 0;
 		state = 2;
 	};
@@ -265,7 +379,7 @@
 		vrLen = 151;
 		vrLoc = 0;
 	};
-	E352846710A98BFD00C50908 /* smcFanControl */ = {
+	E352846710A98BFD00C50908 /* AutoCool */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
 		);
@@ -288,7 +402,7 @@
 		executableSystemSymbolLevel = 0;
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
-		name = smcFanControl;
+		name = AutoCool;
 		savedGlobals = {
 		};
 		showTypeColumn = 0;
@@ -308,26 +422,6 @@
 	E352848210A98BFF00C50908 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
-	};
-	E3A0C5A810E209CC001F1906 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
-		name = "main.m: 29";
-		rLen = 17;
-		rLoc = 919;
-		rType = 0;
-		vrLen = 971;
-		vrLoc = 0;
-	};
-	E3A0C5A910E209CC001F1906 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 894A465F0ADBD6CF008785F3 /* FanControl.h */;
-		name = "FanControl.h: 114";
-		rLen = 0;
-		rLoc = 2164;
-		rType = 0;
-		vrLen = 768;
-		vrLoc = 571;
 	};
 	E3A0C5AB10E209CC001F1906 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -419,26 +513,6 @@
 		vrLen = 1193;
 		vrLoc = 59;
 	};
-	E3A0C5C110E21AF9001F1906 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 894A46600ADBD6CF008785F3 /* FanControl.m */;
-		name = "FanControl.m: 522";
-		rLen = 0;
-		rLoc = 18823;
-		rType = 0;
-		vrLen = 874;
-		vrLoc = 18820;
-	};
-	E3A0C5C210E21AF9001F1906 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 894A46600ADBD6CF008785F3 /* FanControl.m */;
-		name = "FanControl.m: 660";
-		rLen = 0;
-		rLoc = 23876;
-		rType = 0;
-		vrLen = 1048;
-		vrLoc = 23425;
-	};
 	E3AAA8AE10D0689200CBC4D8 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 892A7F440B10B7700041B493 /* MachineDefaults.m */;
@@ -448,5 +522,89 @@
 		rType = 0;
 		vrLen = 1529;
 		vrLoc = 1354;
+	};
+	E3E601A910F98762001E504C /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 89E7D3640ADE819B000F67AB /* Machines.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Machines.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	E3E601AA10F98762001E504C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 114;
+		vrLoc = 0;
+	};
+	E3E601AB10F98762001E504C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 893506130B440249001BFBA5 /* English */;
+		name = "Localizable.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	E3E601AC10F98762001E504C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 89B2431F0B7E351000CAD103 /* smcfancontrol_v2.icns */;
+	};
+	E3E601AD10F98762001E504C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 894A465F0ADBD6CF008785F3 /* FanControl.h */;
+		name = "FanControl.h: 129";
+		rLen = 0;
+		rLoc = 2625;
+		rType = 0;
+		vrLen = 1020;
+		vrLoc = 2111;
+	};
+	E3E601AE10F98762001E504C /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/granvillevanlintao/_Projects/AutoCool/Contents/Resources/Sources/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	E3E601AF10F98762001E504C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 28";
+		rLen = 0;
+		rLoc = 907;
+		rType = 0;
+		vrLen = 971;
+		vrLoc = 0;
+	};
+	E3E601EF10F98EA3001E504C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected ')' before '(' token";
+		fRef = 894A46600ADBD6CF008785F3 /* FanControl.m */;
+		rLen = 1;
+		rLoc = 207;
+		rType = 1;
+	};
+	E3E601FD10F98EDE001E504C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 894A46600ADBD6CF008785F3 /* FanControl.m */;
+		name = "FanControl.m: 210";
+		rLen = 0;
+		rLoc = 7016;
+		rType = 0;
+		vrLen = 1232;
+		vrLoc = 6217;
 	};
 }
