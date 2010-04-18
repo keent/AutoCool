@@ -408,7 +408,7 @@ BOOL autoCoolON = NO;
 	[FanControl setRights];
 	[FavoritesController setSelectionIndex:cIndex];
 	for (i=0;i<[[[[FavoritesController arrangedObjects] objectAtIndex:cIndex] objectForKey:@"FanData"] count];i++) {
-		NSLog(@"Value:%@ and i: %i",[[[FanController arrangedObjects] objectAtIndex:i] objectForKey:@"selspeed"],i);
+		//NSLog(@"Value:%@ and i: %i",[[[FanController arrangedObjects] objectAtIndex:i] objectForKey:@"selspeed"],i);
 		[smcWrapper setKey_external:[NSString stringWithFormat:@"F%dMn",i] value:[[[[FanController arrangedObjects] objectAtIndex:i] objectForKey:@"selspeed"] tohex]];
 	}
 	NSMenu *submenu = [[[NSMenu alloc] init] autorelease];
@@ -591,7 +591,7 @@ BOOL autoCoolON = NO;
 	
 	/* See if there were any errors loading the script */
 	if (!appleScript || errors) {
-		NSLog(@"error creating applescript:%@ errors:%@", appleScript, [errors description]);
+		//NSLog(@"error creating applescript:%@ errors:%@", appleScript, [errors description]);
 		[appleScript release];
 		return;
 	}
@@ -611,7 +611,7 @@ BOOL autoCoolON = NO;
 	[event setParamDescriptor:methodName forKeyword:'snam'];
 	[event setParamDescriptor:parameters forKeyword:keyDirectObject];
 	if(	![appleScript executeAppleEvent:event error:&errors]) {
-		NSLog(@"error executing applescript: errors:%@", [errors description]);
+		//NSLog(@"error executing applescript: errors:%@", [errors description]);
 	}
 	[appleScript release];
 }
@@ -661,7 +661,7 @@ BOOL autoCoolON = NO;
 }
 
 -(void) acFireTimer2:(NSTimer *)theTimer {
-	NSLog(@"TIMER FIRE!");
+	//NSLog(@"TIMER FIRE!");
 	
 	float fFanTemp;
 	int iFanTemp;
@@ -731,7 +731,7 @@ BOOL autoCoolON = NO;
 		
 		// Check to see if a performSelector Handler changed the exitNow value.
 		exitNow = [[threadDict valueForKey:@"ThreadShouldExitNow"] boolValue];
-		NSLog(@"After check!");
+		// NSLog(@"After check!");
 	}
 
 	[pool release];
@@ -752,7 +752,7 @@ BOOL autoCoolON = NO;
 - (IBAction) setAutoCoolOff:(id) sender	{
 	if (autoCoolON)
 	{
-		NSLog(@"OFF!");
+		// NSLog(@"OFF!");
 		[self performSelector:@selector(setAcThreadExitTrue) onThread:gacThread withObject:nil waitUntilDone: YES];
 		autoCoolON = NO;
 	}
